@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>FarmProduce.ng</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style2.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navbar-->
+        <nav class="navbar  navbar-expand-lg navbar-dark indigo">
+
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><strong>Farm<span class="pro">Produce.</span><sub>ng</sub></strong></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="buyerreg.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Buyers
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+                                        <a class="dropdown-item" href="buyerreg.html"><i class="fa fa-sign-in" aria-hidden="true"></i></i> Login</a>
+                                        <a class="dropdown-item" href="buyerreg.html"><i class="fa fa-user"></i> Register</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="farmersreg.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Farmers
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+                                        <a class="dropdown-item" href="farmersreg.html"><i class="fa fa-sign-in" aria-hidden="true"></i></i> Login</a>
+                                        <a class="dropdown-item" href="farmersreg.html"><i class="fa fa-user"></i> Register</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">List Your Produce</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Profile</a>
+                                </li>
+                            </ul>
+                        </div>
+            </div>
+
+        </nav>
+        <!--/.Navbar-->
+   <div class="background">
+        
+        <div class="container me">
+                <section id="sign" class="form-elegant me">
+
+                    <!--Form without header-->
+                    <div class="card">
+
+                        <div class="card-body mx-4">
+
+                            <!--Header-->
+                            <div class="text-center">
+                                <h3 class="dark-grey-text mb-5"><strong>Sign in</strong></h3>
+                            </div>
+
+                            <!--Body-->
+                           <div class="md-form">
+                                <i class="fa fa-envelope prefix"></i>
+                                <input type="text" id="Form-email1" class="form-control">
+                                <label for="Form-email1">Your email</label>
+                            </div>
+
+                            <div class="md-form pb-3">
+                                <i class="fa fa-lock prefix"></i>
+                                <input type="password" id="Form-pass1" class="form-control">
+                                <label for="Form-pass1">Your password</label>
+                                <p class="font-small blue-text d-flex justify-content-end">Forgot <a href="#" class="blue-text ml-1"> Password?</a></p>
+                            </div>
+
+                            <div class="text-center mb-3">
+                                <button type="button" class="btn btncol blue-gradient btn-block btn-rounded z-depth-1a">Sign in</button>
+                            </div>
+                            <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> or Sign in with:</p>
+
+                                <div class="row my-3 d-flex justify-content-center">
+                                    <!--Facebook-->
+                                    <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fa fa-facebook blue-text text-center"></i></button>
+                                    <!--Twitter-->
+                                    <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fa fa-twitter blue-text"></i></button>
+                                    <!--Google +-->
+                                    <button type="button" class="btn btn-white btn-rounded z-depth-1a"><i class="fa fa-google-plus blue-text"></i></button>
+                                </div>
+
+                        </div>
+
+                        <!--Footer-->
+                        <div class="modal-footer mx-5 pt-3 mb-1">
+                            <p id="button1" class="font-small grey-text d-flex justify-content-end">Not a member? <a href="#" class="blue-text ml-1"> Sign Up</a></p>
+                        </div>
+
+                    </div>
+                    <!--/Form without header-->
+
+                </section>
+
+                <div id="reg">
+                    <section class="form-elegant me">
+
+                        <!--Form without header-->
+                        <div class="card">
+
+                            <div class="card-body mx-4">
+
+                                <!--Header-->
+                                <div class="text-center">
+                                    <h3 class="dark-grey-text mb-5"><strong>Register</strong></h3>
+                                </div>
+
+                                <!--Body-->
+                                <div class="md-form">
+                                    <input type="text" id="Form-email1" class="form-control">
+                                    <label for="Form-email1">First Name</label>
+                                </div>
+                                <div class="md-form">
+                                    <input type="text" id="Form-email1" class="form-control">
+                                    <label for="Form-email1">Last Name</label>
+                                </div>
+                                <div class="md-form">
+                                    <input type="text" id="Form-email1" class="form-control">
+                                    <label for="Form-email1">Your email</label>
+                                </div>
+
+                                <div class="md-form pb-3">
+                                    <input type="password" id="Form-pass1" class="form-control">
+                                    <label for="Form-pass1">Your password</label>
+                                    <p class="font-small blue-text d-flex justify-content-end">Forgot <a href="#" class="blue-text ml-1"> Password?</a></p>
+                                </div>
+
+                                <div class="text-center mb-3">
+                                    <button type="button" class="btn  btnbuy blue-gradient btn-block btn-rounded z-depth-1a btncol">Sign in</button>
+                                </div>
+                                <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> or Sign in with:</p>
+
+                                    <div class="row my-3 d-flex justify-content-center">
+                                        <!--Facebook-->
+                                        <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fa fa-facebook blue-text text-center"></i></button>
+                                        <!--Twitter-->
+                                        <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fa fa-twitter blue-text"></i></button>
+                                        <!--Google +-->
+                                        <button type="button" class="btn btn-white btn-rounded z-depth-1a"><i class="fa fa-google-plus blue-text"></i></button>
+                                    </div>
+
+                            </div>
+
+                            <!--Footer-->
+                            <div class="modal-footer mx-5 pt-3 mb-1">
+                                <p id="button2" class="font-small grey-text d-flex justify-content-end">Not a member? <a href="#" class="blue-text ml-1"> Login</a></p>
+                            </div>
+
+                        </div>
+                        <!--/Form without header-->
+
+                    </section>                
+                </div>         
+        </div>
+   </div>
+                           
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only">
+
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-3 offset-md-1">
+                    <h5 class="title">ABOUT <strong>FarmProduce.<sub>ng</sub></strong></h5>
+                    <p>FarmProduce.<sub>ng</sub>  is the No.1 Market Place for farmers and all other stake holders in agriculture in Nigeria.</p>
+
+                    
+                </div>
+                <!--/.First column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Second column-->
+                <div class="col-md-3 offset-md-1">
+                    <h5 class="title"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</h5>
+                    <ul>
+                        <li><a href="#!">Farmer's Login</a></li>
+                        <li><a href="#!">Farmer's Sign In</a></li>
+                        <li><a href="#!">Buyer's Login</a></li>
+                        <li><a href="#!">Buyer's Sign In</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Third column-->
+                <div class="col-md-3">
+                    <h5 class="title"><i class="fa fa-list" aria-hidden="true"></i> Product Listing</h5>
+                    <ul>
+                        <li><a href="#!">Crops</a></li>
+                        <li><a href="#!">Livestock</a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+
+                
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+      
+       
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2017 Copyright: <a href="https://mdbootstrap.com"> FarmProduce.<sub>ng</sub> </a>
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

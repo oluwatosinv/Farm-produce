@@ -1,0 +1,238 @@
+/* TEMPLATE STYLES */
+
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+.ptext .border.trans{
+  background-color:transparent;
+}
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #1C2331;
+}
+
+footer.page-footer {
+    background-color: #1C2331;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+
+
+
+/* Necessary for full page carousel*/
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+/* Carousel*/
+
+.carousel,
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url(../img/slide.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url(../img/pexels-photo-428301.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer.page-footer {
+    background-color: #b53f5a;
+}
+
+.btn-me {
+    background-color: #b53f5a
+}
+.carousel-item:nth-child(3) {
+    background-image: url("../img/animal.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services {
+    background-color: #b53f5a ;
+    color: white;
+}
+.btnbuy {
+    background-color: #2BBBAD !important;
+}
+.indigo {
+    background-color: #b53f5a !important;
+}
+
+/*.largep {
+    background-color: #b53f5a;
+}*/
+
+.pro {
+    color: green;
+    font-weight: 600px;
+}
+
+.en {
+    font-size: 34px;
+}
+
+.metext {
+    font-family: 'Playfair Display', serif;
+    font-size: 200%;
+    font-weight: 700;
+    color: #2C2C2C;
+    text-align: center;
+    text-decoration: underline;
+}
+.mecards :hover {
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
+    padding: 8px;
+}
+.contact p {
+    text-align: center;
+    letter-spacing: 5px;
+}
+.contact a {
+    color: #2C2C2C;
+    text-decoration: none;
+}
+.break {
+        display: none;
+}
+
+.btncol {
+    background-color: #2BBBAD !important;
+}
+
+/*Caption*/
+
+.flex-center {
+    color: #fff;
+}
+
+
+
+
+@media (min-width: 776px) {
+    .me {
+
+    }
+    .en {
+    font-size: 28px;
+    }
+    .carousel .view ul li {
+        display: inline;
+    }
+    .carousel .view .full-bg-img ul li .flex-item {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .background{
+    background: url("../img/apples.jpeg") repeat fixed 100%;
+    padding-bottom: 200px;
+    
+    padding-top: 100px;;
+    }
+    .me {
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+    .backgroundF{
+    background: url("../img/farmer.jpeg") repeat fixed 100%;
+    padding-bottom: 200px;
+    
+    padding-top: 100px;;
+    }
+    .meF {
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+
+    .carouseltext {
+    font-size: 5.5rem;
+    font-weight: 500;
+    line-height: 1.1;
+    }
+
+}
+@media (max-width: 990px) {
+    .background{
+    background: url("../img/apples.jpeg") repeat fixed 100%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    }
+    .carouseltext {
+        font-weight: 500;
+    }
+    .me {
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    .backgroundF{
+    background: url("../img/farmer.jpeg") repeat fixed 100%;
+    padding-bottom: 20px;
+    
+    padding-top: 10px;;
+    }
+    .meF {
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+}
+
+@media (max-width: 776px) {
+    .me {
+
+    }
+    .en {
+    font-size: 16px;
+    }
+    .want {
+        font-size: 34px;
+    }
+}
+
+

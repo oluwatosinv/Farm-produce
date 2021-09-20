@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>FarmProduce.ng</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style2.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navbar-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark indigo">
+
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><strong>Farm<span class="pro">Produce</span></strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="buyerreg.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Buyers
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+                                        <a class="dropdown-item" href="buyerreg.html"><i class="fa fa-sign-in" aria-hidden="true"></i></i> Login</a>
+                                        <a class="dropdown-item" href="buyerreg.html"><i class="fa fa-user"></i> Register</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="farmersreg.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Farmers
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+                                        <a class="dropdown-item" href="farmersreg.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
+                                        <a class="dropdown-item" href="farmersreg.html"><i class="fa fa-user"></i> Register</a>
+                                    </div>
+                                </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">List Your Produce</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profile</a>
+                        </li>
+                    </ul>
+                </div>
+    </div>
+
+</nav>
+<!--/.Navbar-->
+    <!--Carousel Wrapper-->
+<div id="carousel-example-1" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-1" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+            <!--Mask-->
+            <div class="view hm-black-light" style="position: initial;">
+                <div class="full-bg-img flex-center">
+                        <ul class="animated bounceInDown col-md-12">
+                            <li>
+                                <h1 class=" flex-item h1-responsive carouseltext">Welcome to FarmProduce</h1>
+                            </li>
+                            <li>
+                                <p class="flex-item h3-responsive">Where farmers meets prospective buyers</p>
+                            </li>
+                            <li>
+                                <a target="_blank" href="farmersreg.html" class="btn btn-me btn-lg flex-item">Sign up!</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="farmersreg.html" class="btn btn-me btn-lg flex-item">Learn more</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            <!--/.Mask-->
+        </div>
+        <!--/.First slide-->
+
+        <!--Second slide -->
+        <div class="carousel-item">
+            <!--Mask-->
+            <div class="view hm-black-light" style="position: initial;">
+                <div class="full-bg-img flex-center">
+                        <ul class="animated bounceInDown col-md-12">
+                            <li>
+                                <h1 class="h1-responsive carouseltext">FarmProduce</h1>
+                            </li>
+                            <li>
+                                <p class="h3-responsive">Where farmers meets exporters</p>
+                            </li>
+                            <li>
+                                <a target="_blank" href="buyerreg.html" class="btn btn-me btn-lg">Start learning</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            <!--/.Mask-->
+        </div>
+        <!--/.Second slide -->
+
+        <!--Third slide-->
+        <div class="carousel-item">
+            <!--Mask-->
+            <div class="view hm-black-light" style="position: initial;">
+                <div class="full-bg-img flex-center">
+                    <ul class="animated fadeInUp col-md-12">
+                        <li>
+                            <h1 class="h1-responsive">Buy diffrent farm produce</h1></li>
+                        
+                        <li>
+                            <a target="_blank" href="buyerreg.html" class="btn btn-me btn-lg">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.Mask-->
+        </div>
+        <!--/.Third slide-->
+    </div>
+    <!--/.Slides-->
+
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+    <div class="container my-5">
+        <h1 class="ma-3 text-center mb-4 display-5">BROWSE FARM PRODUCE BY CATERGORIES</h1>
+      <div class="row text-center">
+       
+        <div class="col-md-3">
+            <a href="#">
+                     <!--Card-->
+                <div class="card my-2">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight mecards">
+                        <img class="img-fluid" src="img/tuber.jpeg" alt="Card image cap">
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title h4">Tubers</h4>
+                        <!--Text-->
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </a>
+        </div>
+        
+        <div class="col-md-3 my-2">
+            <a href="#">
+                     <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img class="img-fluid" src="img/poultry.jpeg" alt="Poultry">
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Poultry</h4>
+                        <!--Text-->
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </a>
+        </div>
+        
+
+        <div class="col-md-3 my-2">
+            <a href="#">
+                          <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <img class="img-fluid" src="img/goat.jpeg" alt="Card image cap">
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Livestock</h4>
+                        <!--Text-->
+                        
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </a>
+        </div>
+
+        <div class="col-md-3 my-2">
+            <a href="#">
+                          <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <img class="img-fluid" src="img/fish2.jpg" alt="Card image cap">
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Sea food</h4>
+                        <!--Text-->
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </a>
+        </div>
+
+        <div class="col-md-3 my-2">
+            <a href="#">
+                          <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <img class="img-fluid" src="img/fruit.jpg" alt="Card image cap">
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Fruits</h4>
+                        <!--Text-->
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </a>
+        </div>
+
+        <div class="col-md-3 my-2">
+            <a href="#">
+                          <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <img class="img-fluid" src="img/pepper.jpeg" alt="Card image cap">
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Vegetable</h4>
+                        <!--Text-->
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </a>
+        </div>
+
+        <div class="col-md-3 my-2">
+            <a href="#">
+                          <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <img class="img-fluid" src="img/snails.jpeg" alt="Card image cap">
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Snails</h4>
+                        <!--Text-->
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </a>
+        </div>
+        
+        <div class="col-md-3 my-2">
+            <a href="#">
+              <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <img class="img-fluid" src="img/fruit.jpg" alt="Card image cap">
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Others</h4>
+                        <!--Text-->
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </a>
+        </div>
+        
+      </div>
+    </div> <!-- /container end -->
+
+      <!-- SERVICES -->
+    <div class="container-fluid services py-3">
+        <div class="container">
+          <h1 class="h1 mt-5 text-center">SERVICES</h1>
+          <div class="row mt-3">
+              <div class="col text-center">
+                    <div class="wow zoomInLeft">
+                      <i class="fa fa-handshake-o fa-5x"></i> 
+                    </div>
+                    <div>
+                        <h3>Meets buyers</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut minima dignissimos iure debitis architecto.</p>
+                    </div>
+              </div>
+              <div class="col text-center">
+                    <div class="wow bounceInDown">
+                      <i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <h3>Order your farm produce online</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+              </div>
+              <div class="col text-center">
+                    <div class="wow zoomInRight">
+                      <i class="fa fa-users fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <h3>Meet Farmers, Exporters, Consumers</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+              </div>
+          </div> <!-- /END ROW SECTION -->
+        </div>
+    </div>
+
+     <!--  BEST SELLING PRODUCTS -->
+     <div class="container">
+         <h2 class="h2 text-center mt-5">Best selling products</h2>
+
+         <div class="row text-center">
+       
+            <div class="col">
+                     <!--Card-->
+                <div class="card my-2">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img class="img-fluid" src="img/poultry.jpeg" alt="Card image cap">
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title h5">Broilers</h4>
+                        <div>
+                            <span class="pull-right h5">#400/kg</span>
+                            <h4 class="h5">Toba Farms</h4>
+                        </div>
+                        <hr>
+                        <p></p>
+                        <!--Text-->
+                        
+                        <a href="#" class="btn btn-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </div>
+            
+            <div class="col my-2">
+                     <!--Card-->
+                <div class="card">
+
+                   <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img class="img-fluid" src="img/apple.jpeg" alt="Card image cap">
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title h5">Apples</h4>
+                        <div>
+                            <span class="pull-right h5">#400/kg</span>
+                            <h4 class="h5">Spink Farms</h4>
+                        </div>
+                        <hr>
+                        <p></p>
+                        <!--Text-->
+                        
+                        <a href="#" class="btn btn-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </div>
+            
+
+            <div class="col my-2">
+                          <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img class="img-fluid" src="img/poultry.jpeg" alt="Card image cap">
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title h5">Broilers</h4>
+                        <div>
+                            <span class="pull-right h5">#400/kg</span>
+                            <h4 class="h5">Toba Farms</h4>
+                        </div>
+                        <hr>
+                        <p></p>
+                        <!--Text-->
+                        
+                        <a href="#" class="btn btn-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </div>
+
+            <div class="col my-2">
+                          <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img class="img-fluid" src="img/poultry.jpeg" alt="Card image cap">
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title h5">Broilers</h4>
+                        <div>
+                            <span class="pull-right h5">#400/kg</span>
+                            <h4 class="h5">Toba Farms</h4>
+                        </div>
+                        <hr>
+                        <p></p>
+                        <!--Text-->
+                        
+                        <a href="#" class="btn btn-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </div>
+        </div> <!-- /.END ROW -->
+     </div> <!-- /.END BEST SELLING PRODUCTS -->
+</div> <!-- /END CONTAINER -->
+
+<!-- CONTAINER FLIUD -->
+<div class="container-fluid mt-5 largep">
+<hr class="mb-2">
+    <div class="container text-center my-4">
+        <h1 class="display-5 want">Want to buy farm produce in large quantities?</h1>
+        <h3 class="metext">Contact us</h3>
+    <section class="contact">
+                <p class="h5">Durodola <br class="break"> <a href="mailto:tosin@Farmproduce.ng">tosin@Farmproduce.ng</a> <br class="break">  <br class="break"> 23470-345-825-58</p>
+                <p class="h5 mp-3">1000 Street Road <br class="break"> My City <br class="break"> My State </p>
+        </section>
+        
+        
+
+    </div>
+    <!-- end container inside fluid -->
+    
+</div>
+
+                           
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only">
+
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-3 offset-md-1">
+                    <h5 class="title">ABOUT <strong>FarmProduce.<sub>ng</sub></strong></h5>
+                    <p>FarmProduce.<sub>ng</sub>  is the No.1 Market Place for farmers and all other stake holders in agriculture in Nigeria.</p>
+
+                    
+                </div>
+                <!--/.First column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Second column-->
+                <div class="col-md-3 offset-md-1">
+                    <h5 class="title"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</h5>
+                    <ul>
+                        <li><a href="#!">Farmer's Login</a></li>
+                        <li><a href="#!">Farmer's Sign In</a></li>
+                        <li><a href="#!">Buyer's Login</a></li>
+                        <li><a href="#!">Buyer's Sign In</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Third column-->
+                <div class="col-md-3">
+                    <h5 class="title"><i class="fa fa-list" aria-hidden="true"></i> Product Listing</h5>
+                    <ul>
+                        <li><a href="#!">Crops</a></li>
+                        <li><a href="#!">Livestock</a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+
+                
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+      
+       
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2017 Copyright: <a href="https://mdbootstrap.com"> FarmProduce.<sub>ng</sub> </a>
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
